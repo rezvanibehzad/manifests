@@ -62,8 +62,8 @@ data:
     [OUTPUT]
         Name          gelf
         Match         *
-        Host          10.36.18.29
-        Port          4445
+        Host          <graylog inbound IP>
+        Port          <graylog inbound port>
         Mode          tcp
         Gelf_Short_Message_Key log
 
